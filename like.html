@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card with Like Button</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #e3f2fd;
+      }
+      .card {
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+      .card-content {
+        padding: 16px;
+      }
+      .card-title {
+        font-size: 1.25em;
+        font-weight: bold;
+        margin: 0 0 8px;
+      }
+      .card-text {
+        font-size: 0.95em;
+        color: #555;
+        margin: 0 0 16px;
+      }
+      .like-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 16px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #4caf50;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .like-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="http://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg"
+        alt="Cat"
+      />
+      <div class="card-content">
+        <div class="card-title">Lorem ipsum dolor sit amet.</div>
+        <div class="card-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          accusantium delectus nemo dolore. Dicta porro saepe magni nemo
+          voluptatem et.
+        </div>
+        <button class="like-button">Like</button>
+      </div>
+    </div>
+  </body>
+</html>

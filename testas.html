@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelionių Agentūra</title>
+</head>
+<body>
+    <!-- Header sekcija -->
+    <header>
+        <!-- Logotipas -->
+        <a href="index.html">
+            <img src="logo.png" alt="Kelionių agentūros logotipas">
+        </a>
+        <!-- Navigacija -->
+        <nav>
+            <ul>
+                <li><a href="#kelioniu-pasiulymai">Kelionių pasiūlymai</a></li>
+                <li><a href="#autonuoma">Autonuoma</a></li>
+                <li><a href="#patariamai">Patarimai keliaujantiems</a></li>
+                <li><a href="#kelioniu-zurnalas">Kelionių žurnalas</a></li>
+            </ul>
+        </nav>
+        <!-- Log In nuoroda -->
+        <a href="login.html">Log in</a>
+    </header>
+
+    <!-- Puslapio Turinys -->
+    <main>
+        <section id="kelioniu-pasiulymai">
+            <h2>Kelionių pasiūlymai</h2>
+            <p>Čia bus pateikti mūsų kelionių pasiūlymai.</p>
+        </section>
+
+        <section id="autonuoma">
+            <h2>Autonuoma</h2>
+            <p>Informacija apie automobilių nuomą.</p>
+        </section>
+
+        <section id="patariamai">
+            <h2>Patarimai keliaujantiems</h2>
+            <p>Naudingi patarimai jūsų kelionėms.</p>
+        </section>
+
+        <section id="kelioniu-zurnalas">
+            <h2>Kelionių žurnalas</h2>
+            <p>Įdomios kelionių istorijos ir straipsniai.</p>
+        </section>
+    </main>
+</body>
+</html>
+ 
+/* Bendri stiliai */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}

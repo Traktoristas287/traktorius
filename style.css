@@ -1,0 +1,64 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background and text color for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ebcccc;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background: #0c0c0c;
+  color: rgb(250, 249, 249);
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: rgb(248, 248, 248);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: rgb(190, 184, 184);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #b91414;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: rgb(252, 252, 252);
+}

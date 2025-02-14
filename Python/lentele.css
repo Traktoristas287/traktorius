@@ -1,0 +1,28 @@
+/*Bendras nuorodu stilius */
+nav a {
+    text-decoration: none;
+    color: burlywood;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Nuorodos spalva, kai uzvedama pele */ 
+nav a:hover{
+    color: red;
+}
+
+/*Nuorodos spalva, kai ji buvo aplankyta */ 
+nav a:visited {
+    color: purple;
+}
+
+/* Spalvina tik antrą eilutę lentelės kūne */
+tbody tr:nth-child(2) {
+    background-color: #050000;
+}
+
+div {
+    background-color: aqua;
+    border-radius: 10px;
+    border: 25px dotted rgb red green blue
+}
